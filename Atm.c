@@ -1,5 +1,5 @@
 
-// ****************************************************************************************************    ATM Software   *******************************************************************************************************
+// ****************************************************************************************************    ATM Software1234   *******************************************************************************************************
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -86,6 +86,7 @@ int main()
                         printf("Select the options \n\nMore informations \t1\nFor Exist\t\t2\n\n\t\t\t[ ]\b\b");scanf("%d",&option);
                         if(option == 1)
                         {
+                            system("cls");
                             goto start1;
                         }
                         else{
@@ -180,6 +181,7 @@ int main()
                         printf("Select the options \n\nMore informations \t1\nFor Exist\t\t2\n\n\t\t\t[ ]\b\b");scanf("%d",&option);
                         if(option == 1)
                         {
+                            system("cls");
                             goto start2;
                         }
                         else{
